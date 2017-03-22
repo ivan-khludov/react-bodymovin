@@ -1,0 +1,32 @@
+{
+  "name": "react-bodymovin",
+  "version": "1.0.0",
+  "description": "React wrapper for the bodymovin animation library",
+  "main": "src/ReactBodymovin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "react",
+    "bodymovin"
+  ],
+  "author": "Oliver Caldwell",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "bodymovin": "^4.6.1",
+    "css-loader": "^0.23.1",
+    "postcss-loader": "^0.9.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.0"
+  }
+}
