@@ -1,5 +1,5 @@
-import React from 'react'
-import bodymovin from 'bodymovin'
+const React = require('react')
+const bodymovin = require('bodymovin')
 
 class ReactBodymovin extends React.Component {
   componentDidMount () {
@@ -29,4 +29,4 @@ ReactBodymovin.propTypes = {
   options: React.PropTypes.object.isRequired
 }
 
-export default ReactBodymovin
+module.exports = ReactBodymovin

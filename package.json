@@ -2,11 +2,11 @@
   "name": "react-bodymovin",
   "version": "1.0.0",
   "description": "React wrapper for the bodymovin animation library",
-  "main": "dist/bundle.js",
+  "main": "lib/ReactBodymovin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "prepublish": "webpack"
+    "prepublish": "babel src --out-dir lib"
   },
   "keywords": [
     "react",
@@ -20,6 +20,7 @@
     "bodymovin": "^4.6.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.13.2",
