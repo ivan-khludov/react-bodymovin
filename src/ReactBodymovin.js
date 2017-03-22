@@ -12,14 +12,16 @@ class ReactBodymovin extends React.Component {
     this.animation.destroy()
   }
 
+  shouldComponentUpdate () {
+    return false
+  }
+
   render () {
     const storeWrapper = (el) => {
       this.wrapper = el
     }
 
-    return (
-      <div ref={storeWrapper} />
-    )
+    return <div className='react-bodymovin-container' ref={storeWrapper} />
   }
 }
 
