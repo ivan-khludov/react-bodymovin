@@ -58,6 +58,10 @@ module.exports = {
           'css-loader?modules',
           'postcss-loader'
         ]
+      },
+      {
+        test: /\.json$/,
+        use: 'json-loader'
       }
     ]
   },
