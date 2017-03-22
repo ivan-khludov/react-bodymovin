@@ -4,6 +4,12 @@ A very simple [React][] wrapper for the awesome [bodymovin][] library.
 
 Does the bare minimum to embed an animation within a React application at the moment. If more things are required they can be added later. I assume you're going to build your application with webpack, so the library isn't compiled ahead of time.
 
+## Installation
+
+```bash
+npm install --save react-bodymovin
+```
+
 ## Usage
 
 ```js
