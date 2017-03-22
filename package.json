@@ -2,10 +2,11 @@
   "name": "react-bodymovin",
   "version": "1.0.0",
   "description": "React wrapper for the bodymovin animation library",
-  "main": "src/ReactBodymovin.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "prepublish": "webpack"
   },
   "keywords": [
     "react",

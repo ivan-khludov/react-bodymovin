@@ -21,7 +21,7 @@ module.exports = {
     filename: 'bundle.js',
     // the output bundle
 
-    path: resolve(__dirname, 'dev/dist'),
+    path: resolve(__dirname, 'dist'),
 
     publicPath: '/'
     // necessary for HMR to know where to load the hot update chunks
