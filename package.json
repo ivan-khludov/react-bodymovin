@@ -12,6 +12,10 @@
     "react",
     "bodymovin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QubitProducts/react-bodymovin.git"
+  },
   "author": "Oliver Caldwell",
   "license": "ISC",
   "dependencies": {
