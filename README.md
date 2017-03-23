@@ -19,7 +19,6 @@ import animation from './animation.json'
 
 const App = () => {
   const bodymovinOptions = {
-    animType: 'svg',
     loop: true,
     autoplay: true,
     prerender: true,
@@ -35,6 +34,16 @@ const App = () => {
 
 export default App
 ```
+
+## File size
+
+Bodymovin is pretty huge, sadly, so you may want to load this dependency optionally somehow if you don't need it on every page. I depend on the "light" version which only supports SVG to make it a little smaller.
+
+| Bodymovin file sizes | Normal | Light |
+|----------------------|--------|-------|
+| Default              | 492K   | 311K  |
+| Minified             | 226K   | 129K  |
+| Minified + Gzipped   | 53K    | 34K   |
 
 [react]: https://facebook.github.io/react/
 [bodymovin]: https://github.com/bodymovin/bodymovin

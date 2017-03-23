@@ -1,10 +1,11 @@
 const React = require('react')
-const bodymovin = require('bodymovin')
+const bodymovin = require('bodymovin/build/player/bodymovin_light')
 
 class ReactBodymovin extends React.Component {
   componentDidMount () {
     const options = Object.assign({}, this.props.options)
     options.wrapper = this.wrapper
+    options.renderer = 'svg'
     this.animation = bodymovin.loadAnimation(options)
   }
 
