@@ -19,9 +19,9 @@
   "author": "Oliver Caldwell",
   "license": "ISC",
   "dependencies": {
+    "bodymovin": "^4.6.1",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "bodymovin": "^4.6.1"
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
