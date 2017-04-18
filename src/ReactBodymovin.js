@@ -26,8 +26,4 @@ class ReactBodymovin extends React.Component {
   }
 }
 
-ReactBodymovin.propTypes = {
-  options: React.PropTypes.object.isRequired
-}
-
 module.exports = ReactBodymovin
