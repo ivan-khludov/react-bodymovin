@@ -1,5 +1,5 @@
 const React = require('react')
-const bodymovin = require('bodymovin/build/player/bodymovin_light')
+const bodymovin = BODYMOVIN_EXPRESSION_SUPPORT ? require('bodymovin/build/player/bodymovin.min') : require('bodymovin/build/player/bodymovin_light.min') 
 
 class ReactBodymovin extends React.Component {
   componentDidMount () {

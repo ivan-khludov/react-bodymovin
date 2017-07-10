@@ -37,7 +37,20 @@ export default App
 
 ## File size
 
-Bodymovin is pretty huge, sadly, so you may want to load this dependency optionally somehow if you don't need it on every page. I depend on the "light" version which only supports SVG to make it a little smaller.
+Bodymovin is pretty huge, sadly, so you may want to load this dependency optionally somehow if you don't need it on every page. By default this will use the minified "light" version which only supports SVG to make it a little smaller.
+
+If you need the full Bodymovin library with expression support, this is possible by adding a line in your `webpack.DefinePlugin` configuration as shown below:
+
+```js
+plugins: ([
+	new webpack.DefinePlugin({
+    //Set true for the full bodymovin.min and false for bodymovin_light.min
+		BODYMOVIN_EXPRESSION_SUPPORT: true
+	})
+])
+```
+
+Simply set to true for the full `bodymovin.min.js` with expression support, and set to false for `bodymovin_light.min.js` which doesn't support expressions, but is smaller, as shown below:
 
 | Bodymovin file sizes | Normal | Light |
 |----------------------|--------|-------|
