@@ -1,5 +1,12 @@
 const React = require('react')
-const bodymovin = BODYMOVIN_EXPRESSION_SUPPORT ? require('bodymovin/build/player/bodymovin.min') : require('bodymovin/build/player/bodymovin_light.min') 
+var bodymovin;
+//Use Bodymovin Light
+if (typeof BODYMOVIN_EXPRESSION_SUPPORT === 'undefined' || BODYMOVIN_EXPRESSION_SUPPORT == null || BODYMOVIN_EXPRESSION_SUPPORT === false) {
+  bodymovin = require('bodymovin/build/player/bodymovin_light.min');
+//Use Bodymovin w/ expressions
+} else if (BODYMOVIN_EXPRESSION_SUPPORT === true){
+  bodymovin = require('bodymovin/build/player/bodymovin.min');
+}
 
 class ReactBodymovin extends React.Component {
   componentDidMount () {
