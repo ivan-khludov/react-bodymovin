@@ -1,3 +1,7 @@
+# v1.0.5
+
+ * Merge [#6](https://github.com/QubitProducts/react-bodymovin/pull/6) - Allow the use of the full bodymovin (not just light) through webpack.
+
 # v1.0.4
 
  * Start of the changelog.
