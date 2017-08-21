@@ -1,19 +1,21 @@
 const React = require('react')
-var bodymovin;
-const isDOM = typeof window === "object" && typeof window.document === "object";
+var bodymovin
+const isDOM = typeof window === 'object' && typeof window.document === 'object'
 
-//Use Bodymovin Light if running in browser
+/* global BODYMOVIN_EXPRESSION_SUPPORT */
+
+// Use Bodymovin Light if running in browser
 if (isDOM && (typeof BODYMOVIN_EXPRESSION_SUPPORT === 'undefined' || BODYMOVIN_EXPRESSION_SUPPORT == null || BODYMOVIN_EXPRESSION_SUPPORT === false)) {
-  bodymovin = require('bodymovin/build/player/bodymovin_light.min');
-//Use Bodymovin w/ expressions
-} else if (isDOM && BODYMOVIN_EXPRESSION_SUPPORT === true){
-  bodymovin = require('bodymovin/build/player/bodymovin.min');
+  bodymovin = require('bodymovin/build/player/bodymovin_light.min')
+// Use Bodymovin w/ expressions
+} else if (isDOM && BODYMOVIN_EXPRESSION_SUPPORT === true) {
+  bodymovin = require('bodymovin/build/player/bodymovin.min')
 }
 
 class ReactBodymovin extends React.Component {
   componentDidMount () {
-    if(!isDOM) {
-      return;
+    if (!isDOM) {
+      return
     }
     const options = Object.assign({}, this.props.options)
     options.wrapper = this.wrapper
@@ -22,8 +24,8 @@ class ReactBodymovin extends React.Component {
   }
 
   componentWillUnmount () {
-    if(!isDOM) {
-      return;
+    if (!isDOM) {
+      return
     }
     this.animation.destroy()
   }
@@ -33,9 +35,6 @@ class ReactBodymovin extends React.Component {
   }
 
   render () {
-    if(!isDOM) {
-      return null;
-    }
     const storeWrapper = (el) => {
       this.wrapper = el
     }
