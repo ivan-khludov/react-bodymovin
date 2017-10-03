@@ -1,3 +1,9 @@
+# v1.1.0
+
+ * Forked from [QubitProducts/react-bodymovin](https://github.com/QubitProducts/react-bodymovin) to [Olical/react-bodymovin](https://github.com/Olical/react-bodymovin) because I no longer have access to the original repository.
+ * Merge [#10](https://github.com/QubitProducts/react-bodymovin/pull/10) - Support server side rendering.
+ * Merge [#11](https://github.com/QubitProducts/react-bodymovin/pull/11) - Allow nesting children within the bodymovin tag.
+
 # v1.0.6
 
  * Merge [#7](https://github.com/QubitProducts/react-bodymovin/pull/7) - Fix the bodymovin light / full flag.
