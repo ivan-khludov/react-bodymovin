@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/QubitProducts/react-bodymovin.git"
+    "url": "git+https://github.com/Olical/react-bodymovin.git"
   },
   "author": "Oliver Caldwell",
   "license": "ISC",

@@ -35,7 +35,6 @@ class ReactBodymovin extends React.Component {
   }
 
   render () {
-
     const storeWrapper = (el) => {
       this.wrapper = el
     }
@@ -44,7 +43,7 @@ class ReactBodymovin extends React.Component {
       <div className='react-bodymovin-container' ref={storeWrapper}>
         { this.props.children }
       </div>
-    );
+    )
   }
 }
 
