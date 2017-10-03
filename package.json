@@ -1,6 +1,6 @@
 {
   "name": "react-bodymovin",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "React wrapper for the bodymovin animation library",
   "main": "lib/ReactBodymovin.js",
   "scripts": {
