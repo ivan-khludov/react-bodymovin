@@ -20,9 +20,7 @@
   "author": "Oliver Caldwell",
   "license": "ISC",
   "dependencies": {
-    "bodymovin": "^4.6.1",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "bodymovin": "^4.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -39,5 +37,9 @@
     "style-loader": "^0.16.1",
     "webpack": "^2.1.0-beta.25",
     "webpack-dev-server": "^2.1.0-beta.0"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   }
 }
