@@ -1,3 +1,9 @@
+# v1.1.1
+
+Pull request numbers reset because of the fork.
+
+ * Merge [#1](https://github.com/Olical/react-bodymovin/pull/1) - Move React to peer dependencies.
+
 # v1.1.0
 
  * Forked from [QubitProducts/react-bodymovin](https://github.com/QubitProducts/react-bodymovin) to [Olical/react-bodymovin](https://github.com/Olical/react-bodymovin) because I no longer have access to the original repository.
