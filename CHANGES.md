@@ -1,3 +1,7 @@
+# v1.1.2
+
+ * Set `react` and `react-dom` peer dependencies to `*`, as suggested in [#2](https://github.com/Olical/react-bodymovin/issues/2).
+
 # v1.1.1
 
 Pull request numbers reset because of the fork.
