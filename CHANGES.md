@@ -1,3 +1,9 @@
+# v2.0.0
+
+ * Split into two files, `ReactBodymovin` and `ReactBodymovinFull` which contain the light and full versions of bodymovin respectively. Implemented for [#3](https://github.com/Olical/react-bodymovin/issues/3).
+
+So instead of setting the webpack constant now (which I'm not convinced ever worked), you either require the light entry point or the full one. Much cleaner in my opinion.
+
 # v1.1.2
 
  * Set `react` and `react-dom` peer dependencies to `*`, as suggested in [#2](https://github.com/Olical/react-bodymovin/issues/2).

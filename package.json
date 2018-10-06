@@ -1,6 +1,6 @@
 {
   "name": "react-bodymovin",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "React wrapper for the bodymovin animation library",
   "main": "lib/ReactBodymovin.js",
   "scripts": {
@@ -20,11 +20,9 @@
   "author": "Oliver Caldwell",
   "license": "ISC",
   "dependencies": {
-    "bodymovin": "^4.6.1"
+    "bodymovin": "^4.13.0"
   },
   "devDependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
     "babel-cli": "^6.24.0",
     "babel-core": "^6.13.2",
     "babel-loader": "^6.2.4",
@@ -34,6 +32,8 @@
     "css-loader": "^0.28.0",
     "json-loader": "^0.5.4",
     "postcss-loader": "^1.3.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
     "react-hot-loader": "^3.0.0-beta.6",
     "standard": "^10.0.3",
     "style-loader": "^0.16.1",
